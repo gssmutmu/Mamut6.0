@@ -8,7 +8,8 @@
     "start": "nodemon start.js | bunyan -o short --color"
   },
   "dependencies": {
-    "smartux-connect": "C:\\Program Files\\SmartUX Studio\\dataStore\\smartux-connect\\6.0.22"
+    "smartux-connect": "C:\\Program Files\\SmartUX Studio\\dataStore\\smartux-connect\\6.0.22",
+    "Mamut": "C:\\Program Files\\SmartUX Studio\\dataStore\\custom-connectors\\Mamut"
   },
   "engines": {
     "node": "8.x.x"
