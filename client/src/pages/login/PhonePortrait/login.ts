@@ -21,8 +21,4 @@ export class login_PhonePortrait extends Screen {
   onDataLoad(data: any) {
     // Logic to run when the screen's data is updated goes here.
   }
-  authaction(data)
-  {
-      alert("test");
-  }
 }
