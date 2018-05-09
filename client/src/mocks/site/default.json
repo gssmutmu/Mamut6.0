@@ -7,7 +7,9 @@
       "price": "$49.99",
       "image": "assets/images/site/41aG651UsBL.jpg",
       "description": "Product Description goes here lorem ipsum",
-      "name": "Product Name"
+      "name": "Product Name",
+      "SiteOID": "something",
+      "SiteName": "else"
     },
     {
       "Title": "Cecil Johnson",
