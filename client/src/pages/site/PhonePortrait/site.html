@@ -20,13 +20,18 @@
     <ion-list data-comp-id="list.1">
         <ion-card *ngFor="let item of data.group;let i = index" data-comp-id="card.1">
             <ion-row data-comp-id="row.1" style="padding: 5px;">
-                <ion-col data-comp-id="column.1"><img data-comp-id="img.1" src="{{ item.image?item.image:'assets/images/site/no-product_3+2.png' }}"></ion-col>
+                <ion-col data-comp-id="column.1"><img data-comp-id="img.1"
+                    src="{{ item.image?item.image:'assets/images/site/no-product_3+2.png' }}">
+                </ion-col>
                 <ion-col col-8="" data-comp-id="column.2">
-                    <div [innerHTML]="item.name" data-comp-id="text.1" ion-text="" style="font-size: 18px; line-height: 30px;">Some text</div>
-                    <div [innerHTML]="item.description" color="dark" data-comp-id="text.2" ion-text="" style="line-height: 20px;">Some text</div>
+                    <div [innerHTML]="item.name" data-comp-id="text.1" ion-text=""
+                        style="font-size: 18px; line-height: 30px;">Some text</div>
+                    <div [innerHTML]="item.description" color="dark" data-comp-id="text.2"
+                        ion-text="" style="line-height: 20px;">Some text</div>
                 </ion-col>
                 <ion-col data-comp-id="column.3" style="text-align: right;">
-                    <div [innerHTML]="item.price" color="primary" data-comp-id="text.3" ion-text="" style="">Some text</div>
+                    <div [innerHTML]="item.price" color="primary" data-comp-id="text.3" ion-text=""
+                        style="">Some text</div>
                 </ion-col>
             </ion-row>
         </ion-card>
