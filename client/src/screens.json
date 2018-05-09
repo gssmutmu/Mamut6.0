@@ -1,5 +1,13 @@
 {
   "id": "__BASE__",
   "name": "Mamut60",
-  "screens": []
+  "screens": [
+    {
+      "id": "login",
+      "name": "login",
+      "sourceScreenId": "Login_LoginLightBlue",
+      "sourceAppId": "StrawberryTemplates"
+    }
+  ],
+  "startScreen": "login"
 }

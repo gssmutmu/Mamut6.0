@@ -1,0 +1,53 @@
+<ion-content data-comp-id="content.1" data-img=""
+    style="background-size: 100%; background-image: url(assets/images/login/LightBlue-Background.png);">
+    <div data-comp-id="div.1" style="padding: 20% 15% 0;" text-center="">
+        <ion-icon class="ion-ios-flower" color="light" data-comp-id="icon.1"
+            style="font-size: 84px;"></ion-icon>
+        <form data-comp-id="form.1">
+            <ion-list data-comp-id="list.1" no-lines="">
+                <ion-row data-comp-id="row.1" style="margin: 50px 0px 0px 0px;">
+                    <ion-col class="middle-col" data-comp-id="column.1" text-center="">
+                        <ion-item data-comp-id="input.1">
+                            <ion-label color="dark" floating="" style="">Username</ion-label>
+                            <ion-input [(ngModel)]="data.username" autocapitalize="off" autocorrect="off"
+                                name="username" placeholder="Type here..." type="text"></ion-input>
+                        </ion-item>
+                    </ion-col>
+                </ion-row>
+                <ion-row data-comp-id="row.2">
+                    <ion-col class="middle-col" data-comp-id="column.2" text-center="">
+                        <ion-item data-comp-id="input.2">
+                            <ion-label color="dark" floating="" style="">Password</ion-label>
+                            <ion-input [(ngModel)]="data.password" name="password"
+                                placeholder="Type here..." type="password"></ion-input>
+                        </ion-item>
+                    </ion-col>
+                </ion-row>
+            </ion-list>
+            <ion-row *ngIf="data.errorMessage" data-comp-id="row.3"
+                style="border-top: 1px solid #ff0000; border-right: 1px solid #ff0000; border-bottom: 1px solid #ff0000; border-left: 1px solid #ff0000; margin: 5px 0;">
+                <ion-col data-comp-id="column.3">
+                    <div [innerHTML]="data.errorMessage" color="light" data-comp-id="text.1"
+                        ion-text="" style="">Some text</div>
+                </ion-col>
+            </ion-row>
+            <ion-row data-comp-id="row.4">
+                <ion-col class="button-col" data-comp-id="column.4" text-center="">
+                    <button (click)="authaction('submit')" block="" color="secondary"
+                        data-comp-id="button.1" ion-button="" style="">Login</button>
+                </ion-col>
+            </ion-row>
+        </form>
+        <ion-row data-comp-id="row.5" style="margin: 0px 10px;">
+            <ion-col data-comp-id="column.5"
+                style="padding: 10px 0px 0px 0px; text-align: center;">
+                <touchid-login [context]="this" action="submit" data-comp-id="touchid-login.1">
+                    <div color="light" data-comp-id="text.2" ion-text="" style="">
+                        Login with Touch ID
+                    </div>
+                    <ion-icon color="light" data-comp-id="icon.2" name="finger-print" style=""></ion-icon>
+                </touchid-login>
+            </ion-col>
+        </ion-row>
+    </div>
+</ion-content>
