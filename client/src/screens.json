@@ -7,6 +7,12 @@
       "name": "login",
       "sourceScreenId": "Login_LoginLightBlue",
       "sourceAppId": "StrawberryTemplates"
+    },
+    {
+      "id": "site",
+      "name": "site",
+      "sourceScreenId": "ListView_ProductList",
+      "sourceAppId": "StrawberryTemplates"
     }
   ],
   "startScreen": "login"

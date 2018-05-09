@@ -1,0 +1,76 @@
+{
+  "group": [
+    {
+      "Title": "Arnold Castro",
+      "icon": "",
+      "email": "cshaw@company.com",
+      "price": "$49.99",
+      "image": "assets/images/site/41aG651UsBL.jpg",
+      "description": "Product Description goes here lorem ipsum",
+      "name": "Product Name"
+    },
+    {
+      "Title": "Cecil Johnson",
+      "icon": "",
+      "email": "fpowell@company.com",
+      "price": "$29.99",
+      "image": "assets/images/site/41JwDCYzW9L.jpg",
+      "description": "Sed ut perspiciatis unde omnis iste",
+      "name": "Lorem Ipsum"
+    },
+    {
+      "Title": "Edgar Torres",
+      "icon": "",
+      "email": "scarpenter@company.com",
+      "price": "$19.99",
+      "image": "assets/images/site/41lZydNAHuL.jpg",
+      "description": "Natus error sit voluptatem accusantium",
+      "name": "Dolor Sitamet"
+    },
+    {
+      "Title": "Jacqueline Ramos",
+      "icon": "",
+      "email": "nboyd@company.com",
+      "price": "$19.99",
+      "image": "assets/images/site/41yQV45iLYL.jpg",
+      "description": "Eoloremque laudantium, totam rem aperiam",
+      "name": "Consectetur"
+    },
+    {
+      "Title": "Allen Ortiz",
+      "icon": "",
+      "email": "ehunter@company.com",
+      "price": "$19.99",
+      "image": "assets/images/site/51kRDkXGxBL.jpg",
+      "description": "Eaque ipsa quae ab illo inventore veritatis",
+      "name": "Adipisci Yelit"
+    },
+    {
+      "Title": "Amelia Robertson",
+      "icon": "",
+      "email": "mhenry@company.com",
+      "price": "$19.99",
+      "image": "assets/images/site/51RwIDYKUjL.jpg",
+      "description": "Et quasi architecto beatae vitae dicta sunt explicabo",
+      "name": "Quis Nostrum"
+    },
+    {
+      "Title": "Bernard Ramos",
+      "icon": "",
+      "email": "swilson@company.com",
+      "price": "$12.99",
+      "image": "assets/images/site/51Xft+0dXh.jpg",
+      "description": "Nemo enim ipsam voluptatem quia voluptas",
+      "name": "Xercitationem ullam"
+    },
+    {
+      "Title": "Ken Palmer",
+      "icon": "",
+      "email": "eramos@company.com",
+      "price": "$19.99",
+      "image": "assets/images/site/51XwomKNT3L.jpg",
+      "description": "Sit aspernatur aut odit aut fugit",
+      "name": "Corporis Suscipit"
+    }
+  ]
+}

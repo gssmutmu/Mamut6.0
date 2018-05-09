@@ -35,5 +35,44 @@
       }
     },
     "id": "login"
+  },
+  "site": {
+    "type": "object",
+    "comment": "Blank",
+    "properties": {
+      "group": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "price": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "image": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            },
+            "name": {
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
+            }
+          }
+        },
+        "update": {
+          "type": "none"
+        }
+      }
+    },
+    "id": "site"
   }
 }
