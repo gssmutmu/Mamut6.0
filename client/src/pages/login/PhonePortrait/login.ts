@@ -28,8 +28,8 @@ export class login_PhonePortrait extends Screen {
     //       console.log("Inside If");
     //   }
   }
-  authaction()
-  {
-      alert("here");
-  }
+//   authaction()
+//   {
+//       alert("here");
+//   }
 }
