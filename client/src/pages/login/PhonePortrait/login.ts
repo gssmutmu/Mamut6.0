@@ -6,7 +6,7 @@ import { Screen } from 'app/screen';
   templateUrl: 'login.html'
 })
 export class login_PhonePortrait extends Screen {
-  data: any;
+  //data: any;
 
   ngOnInit(): void {
     super.ngOnInit();
