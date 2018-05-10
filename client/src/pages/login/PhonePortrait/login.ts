@@ -23,9 +23,9 @@ export class login_PhonePortrait extends Screen {
   }
   authaction(data)
   {
-      if (this.data.username != '' || this.data.password!='')
-      {
-          console.log("Inside If");
-      }
+    //   if (this.data.username != '' || this.data.password!='')
+    //   {
+    //       console.log("Inside If");
+    //   }
   }
 }
