@@ -21,4 +21,11 @@ export class login_PhonePortrait extends Screen {
   onDataLoad(data: any) {
     // Logic to run when the screen's data is updated goes here.
   }
+  authaction(data)
+  {
+      if (this.data.username != '' || this.data.password!='')
+      {
+          alert("Inside If")
+      }
+  }
 }
