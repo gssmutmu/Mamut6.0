@@ -23,6 +23,6 @@ export class login_PhonePortrait extends Screen {
   }
   authaction()
   {
-      alert("chek");
+      console.log("chek");
     }
 }
