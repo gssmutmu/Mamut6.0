@@ -24,6 +24,7 @@ export class login_PhonePortrait extends Screen {
     ButtonTest()
     {
         console.log("data", this.data);
+        this.authaction('submit',null,null);
         //exports.submit();
     }
 
