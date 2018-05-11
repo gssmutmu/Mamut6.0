@@ -21,4 +21,8 @@ export class site_PhonePortrait extends Screen {
   onDataLoad(data: any): void {
     // Logic to run when the screen's data is updated goes here.
   }
+  siteSelection(item)
+  {
+      console.log("Testing ::", item);
+  }
 }
