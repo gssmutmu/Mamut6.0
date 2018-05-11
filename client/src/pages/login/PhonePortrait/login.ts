@@ -24,6 +24,6 @@ export class login_PhonePortrait extends Screen {
 
     public myAuthaction() {
         console.log("chek");
-        authaction('submit');
+        this.authaction('submit');
     }
 }
