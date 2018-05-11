@@ -21,7 +21,7 @@ export class login_PhonePortrait extends Screen {
     onDataLoad(data: any) {
         // Logic to run when the screen's data is updated goes here.
     }
-    ButtonTest()
+    public ButtonTest()
     {
         console.log("data", this.data);
         this.authaction('submit',null,null);
