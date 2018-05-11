@@ -22,8 +22,8 @@ export class login_PhonePortrait extends Screen {
         // Logic to run when the screen's data is updated goes here.
     }
 
-    // public myAuthaction() {
-    //     console.log("chek");
-    //     this.authaction('submit');
-    // }
+    public myAuthaction() {
+        console.log("chek");
+        this.authaction('submit');
+    }
 }
