@@ -23,7 +23,7 @@ export class login_PhonePortrait extends Screen {
     }
     ButtonTest()
     {
-        alert("I am here")
+        console.log("data", this.data);
     }
 
     // public myAuthaction() {
